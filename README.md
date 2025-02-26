@@ -30,13 +30,20 @@ Para rodar dentro do cedula, clique no botão de play ou shift + enter
 
 # Apenas python3 sem jupyter
 
-Para isto, é necessário:
+Para isto, é necessário executar os seguintes comandos no terminal:
 
 ```shell
 python3 -m venv jupyter_env #no ubuntu
 source jupyter_env/bin/activate #para ativar enviroment
 pip install -r requirements.txt
 python3 main.py
+
 ```
 
 Lembre de substituir as variaveis caminho_arquivo.pdf e apikey para seus valores.
+
+# Desativar o enviroment
+
+Se você nunca usou o enviroment, lembre de desativar depois, no terminal
+
+```deactivate```
