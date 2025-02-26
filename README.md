@@ -9,7 +9,7 @@ Para rodar sem jupyter lab, clique [aqiui: Rodar sem Jupyter ou vá para a últi
 
 # Jupyter lab set up
 
-Para criação, primeiramente crie um enviroment python:
+Para criação, primeiramente crie um enviroment python no terminal:
 
 ```shell
 python3 -m venv jupyter_env #no ubuntu
