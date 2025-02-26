@@ -34,6 +34,7 @@ Para isto, é necessário:
 
 ```shell
 python3 -m venv jupyter_env #no ubuntu
+source jupyter_env/bin/activate #para ativar enviroment
 pip install -r requirements.txt
 python3 main.py
 ```
